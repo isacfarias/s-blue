@@ -19,5 +19,6 @@ fun main() {
     print("Informe o peso > ")
     val peso = scanner.nextBigDecimal()
 
+    println("Olá sou(a) $nome tenho $idade anos e peso $peso Kg.")
     println("Olá sou(a) ${nome} tenho ${idade} anos e peso ${peso} Kg.")
 }
