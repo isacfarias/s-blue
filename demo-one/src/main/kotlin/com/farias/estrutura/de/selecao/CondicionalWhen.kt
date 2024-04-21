@@ -25,4 +25,23 @@ fun main() {
         in 11 .. 20 -> println("Range de 11 a 20")
         else -> println("Tem certeza que sabe o que esta fazendo ?????")
     }
+
+
+    print("Informe um valor > ")
+    value = readln().toInt()
+
+    when(value) {
+        0,2,4,6 -> println("é par")
+        else -> println("Não faz parte do range, e agora ?")
+    }
+
+
+    print("Informe um valor > ")
+    value = readln().toInt()
+
+    when {
+        value > 0 -> println("POSITIVO")
+        value < 0 -> println("NEGATIVO")
+        else -> println("ZERO")
+    }
 }
