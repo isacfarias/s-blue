@@ -1,4 +1,4 @@
-package first.step.caracteres
+package com.farias.inicio.caracteres
 
 fun main() {
     val c: Char = 'A'

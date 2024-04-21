@@ -1,4 +1,4 @@
-package first.step.variaveis
+package com.farias.inicio.variaveis
 
 fun main() {
 

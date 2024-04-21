@@ -1,4 +1,4 @@
-package first.step.inputs
+package com.farias.inicio.inputs
 
 import java.util.Scanner
 

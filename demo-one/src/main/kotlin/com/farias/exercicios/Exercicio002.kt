@@ -1,4 +1,4 @@
-package first.exercicios
+package com.farias.exercicios
 
 /**
  * EXERCÍCIO

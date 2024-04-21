@@ -1,4 +1,4 @@
-package operadores
+package com.farias.operadores
 
 fun main() {
 

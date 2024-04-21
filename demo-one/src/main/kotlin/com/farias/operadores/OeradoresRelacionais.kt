@@ -1,4 +1,4 @@
-package operadores
+package com.farias.operadores
 
 //Operadores relacionais sempre vai retorar um boleano
 fun main() {
