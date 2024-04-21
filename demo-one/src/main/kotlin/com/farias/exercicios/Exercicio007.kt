@@ -23,8 +23,10 @@ fun main() {
         type = "ADOLECENTE"
     } else if (age >= 18 && age <= 65) {
         type = "ADULTO"
-    } else if (age >= 66){
+    } else if (age >= 66 && age <= 120){
         type = "SÊNIOR"
+    } else {
+        type = ", o que é você ?"
     }
 
     println("Você é $type")
