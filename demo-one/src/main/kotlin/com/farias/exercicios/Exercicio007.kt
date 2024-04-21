@@ -15,15 +15,15 @@ fun main() {
 
     print("Informe um valor inteiro > ")
 
-    var valor = readln().toInt()
+    var age = readln().toInt()
     val type : String
-    if (valor >= 0 && valor <= 12) {
+    if (age >= 0 && age <= 12) {
         type = "CRIANÇA"
-    } else if (valor >= 13 && valor <= 17) {
+    } else if (age >= 13 && age <= 17) {
         type = "ADOLECENTE"
-    } else if (valor >= 18 && valor <= 65) {
+    } else if (age >= 18 && age <= 65) {
         type = "ADULTO"
-    } else {
+    } else if (age >= 66){
         type = "SÊNIOR"
     }
 
